@@ -1,0 +1,30 @@
+// DM Environment file for duelmonstersdemo.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "icons/player"
+#define FILE_DIR "icons/turf"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "duelmonstersdemo.dm"
+#include "foundation\Admin System.dm"
+#include "foundation\Chat System.dm"
+#include "foundation\Friend & Ignore System.dm"
+#include "foundation\General Commands.dm"
+#include "foundation\Guild System.dm"
+#include "foundation\Login & Logout System.dm"
+#include "foundation\Movement System.dm"
+#include "foundation\Saving System.dm"
+#include "map\map.dmm"
+// END_INCLUDE
+

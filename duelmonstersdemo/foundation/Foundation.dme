@@ -1,0 +1,26 @@
+// DM Environment file for Library.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Admin System.dm"
+#include "Chat System.dm"
+#include "Friend & Ignore System.dm"
+#include "General Commands.dm"
+#include "Guild System.dm"
+#include "Item System.dm"
+#include "Login & Logout System.dm"
+#include "Movement System.dm"
+#include "Saving System.dm"
+// END_INCLUDE
+
